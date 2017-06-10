@@ -13,6 +13,16 @@ First you need to install [twine](https://github.com/pypa/twine).
 make upload
 ```
 
+## Update your local version of the package
+```shell
+make update-local
+```
+
+## Or do both at once (upload and update locally)
+```shell
+make
+```
+
 ## Available modules
 
 Module | Description
