@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'trtwn',
   packages = ['trtwn'],
-  version = '0.1.1',
+  version = '0.2.0',
   description = 'My personal python package with (just for me) useful shorthands',
   author = 'Dennis Trautwein',
   author_email = 'gafwurstula@posteo.net',
