@@ -31,3 +31,6 @@ fs | some convenient functions for file system operations
 latex | [pythontex](https://github.com/gpoore/pythontex) related convenient functions
 matplotlib | matplotlib helper functions
 pyhs | some physics functions
+math | mathematical functions
+numpy | Shorthands for numpy functions
+scipy | some predefined functions for scipy
