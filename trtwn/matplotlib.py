@@ -4,7 +4,7 @@ import matplotlib as mpl
 from matplotlib import pylab as plt
 
 def figsize(scale, textwidthInPt, heightRatio=1/sc.golden_ratio): # Get this from LaTeX using \the\textwidth inside \begin{document}\end{document}
-    textwidthInInch = textwidthInPt / 72.27 #* sc.pt / sc.inch
+    textwidthInInch = textwidthInPt / 72.27 # Latex's point size is **not** 72 pt/in
     figWidthInInch = textwidthInInch * scale
     figHeightInInch = figWidthInInch * heightRatio
     return [figWidthInInch, figHeightInInch]
