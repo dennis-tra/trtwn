@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.optimize import curve_fit
+from trtwn.math import gauss
 
 def fit_gauss(x, y):
 

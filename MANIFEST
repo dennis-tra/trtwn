@@ -8,3 +8,4 @@ trtwn/math.py
 trtwn/matplotlib.py
 trtwn/numpy.py
 trtwn/phys.py
+trtwn/scipy.py
