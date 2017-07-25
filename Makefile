@@ -5,3 +5,6 @@ upload:
 
 update-local:
 	pip3 install -U trtwn
+
+install-local:
+	python3 setup.py install

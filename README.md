@@ -23,6 +23,11 @@ make update-local
 make
 ```
 
+## Just update the package locally without pushing it to pypi?
+```shell
+make install-local
+```
+
 ## Available modules
 
 Module | Description
