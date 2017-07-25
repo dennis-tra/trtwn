@@ -6,6 +6,7 @@ trtwn/fs.py
 trtwn/latex.py
 trtwn/math.py
 trtwn/matplotlib.py
+trtwn/mplwidget.py
 trtwn/numpy.py
 trtwn/phys.py
 trtwn/scipy.py
