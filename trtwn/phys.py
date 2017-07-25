@@ -15,3 +15,12 @@ def nm_to_eV(nm):
 
 def eV_to_nm(eV):
     return sc.h*sc.c/(eV * sc.e * sc.nano)
+
+def k_beat_to_k_spp(k_beat, wavelength, wavelength_error, angle_in_deg=65):
+    angle = np.sin(angle_in_deg/180 * np.pi)
+    k_spp = k_beat + 2 * np.pi/wavelength * angle
+    delta_k_spp = np.abs(2 * np.pi / wavelength**2 * angle * wavelength_error)
+    return k_spp, delta_k_spp
+
+def k_spp_to_n_eff(k_spp, laser_wavelength):
+    return k_spp/(2 * np.pi/laser_wavelength)
